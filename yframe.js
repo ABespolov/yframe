@@ -180,7 +180,7 @@
     });
 })(jQuery);
 
-const yframe = {
+var yframe = {
     addAutoPause: function (className) {
         $(className).iframeTracker({
             blurCallback: function () {
